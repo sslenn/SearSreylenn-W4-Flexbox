@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Excercise2</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .main {
+        height: 100vh;
+        background: #25384b;
+        padding-left: 3em;
+        padding-right: 3em;
+        display: flex;
+      }
+
+      .left-section {
+        background: #a3cfcc;
+        padding: 180px;
+        flex-grow: 1;
+      }
+
+      .right-section {
+        background: #f7cfb6;
+        margin-left: 3em;
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 1em;
+      }
+
+      .item {
+        background: #74b3d0;
+        width: 200px;
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <section class="left-section"></section>
+
+      <section class="right-section">
+        <div class="item one"></div>
+        <div class="item two"></div>
+        <div class="item three"></div>
+      </section>
+    </div>
+  </body>
+</html>
